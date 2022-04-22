@@ -303,7 +303,7 @@ body.light-theme{
 .home__container{
   position:relative;
   row-gap:3.5rem;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
 }
 
 .home__data{
