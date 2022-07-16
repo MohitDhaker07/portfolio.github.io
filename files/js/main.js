@@ -101,5 +101,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+// clear form after submitting 
 
+let btnClear = document.querySelector('button');
+let inputs = document.querySelectorAll('input');
+
+btnClear.addEventListener('click', () => {
+    inputs.forEach(input =>  input.value = '');
+});
 
